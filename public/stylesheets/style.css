@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#study
+{
+  margin-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#series
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left:50px;
+}
+
+#instances
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left:50px;
+}

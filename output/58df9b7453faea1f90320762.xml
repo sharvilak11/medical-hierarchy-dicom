@@ -1,0 +1,93 @@
+<Instance>
+  <Tag0002-0000 description="Group 0002  Length" value="158"/>
+  <Tag0002-0001 description="File Meta Information Version" value=""/>
+  <Tag0002-0002 description="Media StoredSOP ClassUID" value="1.2.840.10008.5.1.4.1.1.3.1"/>
+  <Tag0002-0003 description="Media StoredSOP InstanceUID" value="2.16.840.1.114488.0.4.123489834087.1330071426.3"/>
+  <Tag0002-0010 description="Transfer SyntaxUID" value="1.2.840.10008.1.2.4.70"/>
+  <Tag0002-0012 description="Implementation ClassUID" value="1.2.840.114236"/>
+  <Tag0008-0005 description="Specific Character Set" value="ISO_IR 100"/>
+  <Tag0008-0008 description="Image Type" value="-SECONDARY-INTRAOPERATIVE"/>
+  <Tag0008-0016 description="SOP ClassUID" value="1.2.840.10008.5.1.4.1.1.3.1"/>
+  <Tag0008-0018 description="SOP InstanceUID" value="2.16.840.1.114488.0.4.123489834087.1330071426.3"/>
+  <Tag0008-0020 description="Study Date" value="Wed Aug 24 2011 00:00:00 GMT+0530 TagIndia Standard Time"/>
+  <Tag0008-0021 description="Series Date" value="Wed Aug 24 2011 00:00:00 GMT+0530 TagIndia Standard Time"/>
+  <Tag0008-0023 description="Content Date" value="Wed Aug 24 2011 00:00:00 GMT+0530 TagIndia Standard Time"/>
+  <Tag0008-0030 description="Study Time" value="35316215"/>
+  <Tag0008-0031 description="Series Time" value="35316215"/>
+  <Tag0008-0033 description="Content Time" value="40522215"/>
+  <Tag0008-0050 description="Accession Number" value=""/>
+  <Tag0008-0060 description="Modality" value="US"/>
+  <Tag0008-0070 description="Manufacturer" value="Medistim"/>
+  <Tag0008-0080 description="Institution Name" value="Hospital Name"/>
+  <Tag0008-0081 description="Institution Address" value="Hospital Address or Department"/>
+  <Tag0008-0090 description="Referring Physician Name" value=""/>
+  <Tag0008-1010 description="Station Name" value="VERIQ"/>
+  <Tag0008-1030 description="Study Description" value=""/>
+  <Tag0008-1050 description="Performing Physician Name" value="CA Prof. Debus"/>
+  <Tag0008-1090 description="Manufacturer Model Name" value="VeriQ C"/>
+  <Tag0008-2144 description="Recommended Display Frame Rate" value="31"/>
+  <Tag0010-0010 description="Patient Name" value="Femoral trombenarterectomy Case Report:"/>
+  <Tag0010-0020 description="PatientID" value="Case Report 1"/>
+  <Tag0010-0030 description="Patient Birth Date" value=""/>
+  <Tag0010-0040 description="Patient Sex" value="M"/>
+  <Tag0010-1020 description="Patient Size" value="0"/>
+  <Tag0010-1030 description="Patient Weight" value="0"/>
+  <Tag0010-4000 description="Patient Comments" value="See case report on www.medistim.com"/>
+  <Tag0018-0040 description="Cine Rate" value="31"/>
+  <Tag0018-0072 description="Effective Duration" value="1.18271"/>
+  <Tag0018-1000 description="Device Serial Number" value="0"/>
+  <Tag0018-1020 description="Software Versions" value="3.3.0 RC0 built 02/23/12  09:50:45"/>
+  <Tag0018-1063 description="Frame Time" value="31.9652"/>
+  <Tag0018-1244 description="Preferred Playback Sequencing" value="0"/>
+  <Tag0018-6011 description="Sequence Of Ultrasound Regions" value=""/>
+  <Tag0018-6012 description="Region Spatial Format" value="1"/>
+  <Tag0018-6014 description="Region Data Type" value="1"/>
+  <Tag0018-6016 description="Region Flags" value="2"/>
+  <Tag0018-6018 description="Region Location MinX0" value="80"/>
+  <Tag0018-601A description="Region Location MinY0" value="28"/>
+  <Tag0018-601C description="Region Location MaxX1" value="944"/>
+  <Tag0018-601E description="Region Location MaxY1" value="568"/>
+  <Tag0018-6020 description="Reference PixelX0" value="512"/>
+  <Tag0018-6022 description="Reference PixelY0" value="28"/>
+  <Tag0018-6024 description="Physical UnitsX Direction" value="3"/>
+  <Tag0018-6026 description="Physical UnitsY Direction" value="3"/>
+  <Tag0018-6028 description="Reference Pixel Physical ValueX" value="0"/>
+  <Tag0018-602A description="Reference Pixel Physical ValueY" value="0"/>
+  <Tag0018-602C description="Physical DeltaX" value="0.002774281461757642"/>
+  <Tag0018-602E description="Physical DeltaY" value="0.002774281461757642"/>
+  <Tag0018-6012 description="Region Spatial Format" value="4"/>
+  <Tag0018-6014 description="Region Data Type" value="10"/>
+  <Tag0018-6016 description="Region Flags" value="2"/>
+  <Tag0018-6018 description="Region Location MinX0" value="86"/>
+  <Tag0018-601A description="Region Location MinY0" value="645"/>
+  <Tag0018-601C description="Region Location MaxX1" value="976"/>
+  <Tag0018-601E description="Region Location MaxY1" value="762"/>
+  <Tag0018-6020 description="Reference PixelX0" value="86"/>
+  <Tag0018-6022 description="Reference PixelY0" value="742"/>
+  <Tag0018-6024 description="Physical UnitsX Direction" value="4"/>
+  <Tag0018-6026 description="Physical UnitsY Direction" value="0"/>
+  <Tag0018-6028 description="Reference Pixel Physical ValueX" value="0"/>
+  <Tag0018-602A description="Reference Pixel Physical ValueY" value="0"/>
+  <Tag0018-602C description="Physical DeltaX" value="0.0056179775280898875"/>
+  <Tag0018-602E description="Physical DeltaY" value="-0.05128205128205128"/>
+  <Tag0020-000D description="Study InstanceUID" value="2.16.840.1.114488.0.4.123489834087.1330071425.0"/>
+  <Tag0020-000E description="Series InstanceUID" value="2.16.840.1.114488.0.4.123489834087.1330071425.1"/>
+  <Tag0020-0010 description="StudyID" value=""/>
+  <Tag0020-0011 description="Series Number" value="1"/>
+  <Tag0020-0013 description="Instance Number" value="1"/>
+  <Tag0020-0020 description="Patient Orientation" value=""/>
+  <Tag0020-0060 description="Laterality" value=""/>
+  <Tag0020-4000 description="Image Comments" value=""/>
+  <Tag0028-0002 description="Samples Per Pixel" value="3"/>
+  <Tag0028-0004 description="Photometric Interpretation" value="RGB"/>
+  <Tag0028-0006 description="Planar Configuration" value="0"/>
+  <Tag0028-0008 description="Number Of Frames" value="37"/>
+  <Tag0028-0009 description="Frame Increment Pointer" value="24-4195"/>
+  <Tag0028-0010 description="Rows" value="768"/>
+  <Tag0028-0011 description="Columns" value="1024"/>
+  <Tag0028-0100 description="Bits Allocated" value="8"/>
+  <Tag0028-0101 description="Bits Stored" value="8"/>
+  <Tag0028-0102 description="High Bit" value="7"/>
+  <Tag0028-0103 description="Pixel Representation" value="0"/>
+  <Tag0028-2110 description="Lossy Image Compression" value="00"/>
+</Instance>

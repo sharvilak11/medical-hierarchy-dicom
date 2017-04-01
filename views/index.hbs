@@ -1,0 +1,73 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<form method="get" action="/search">
+    <input type="text" name="txtSearch" required autocomplete="off" class="form-control" /><br />
+    <button type="submit" value="Search" class="btn btn-success text-center">Go</button>
+</form>
+<br />
+
+    {{# if notFound }}
+        <div class="alert alert-danger">
+            <b>No Results Found!!</b>
+        </div>
+    {{/if}}
+
+<div class="container">
+
+{{# if patients}}
+    Patient:<br />
+    {{# each patients }}
+        <table class="table table-striped">
+            <tr><td>Patient ID</td><td>{{this.patientId}}</td></tr>
+            <tr><td>Birth Date</td><td>{{this.patientBirthDate}}</td></tr>
+            <tr><td>Sex</td><td>{{this.patientSex}}</td></tr>
+        </table>
+
+        <br />
+
+        <button data-toggle="collapse" data-target="#study" class="btn btn-danger">Study</button>
+        <div id="study" class="collapse">
+        {{#study}}
+            <table class="table table-striped">
+                <tr><td>Study ID</td><td>{{this.studyId}}</td></tr>
+                <tr><td>Study Date</td><td>{{this.studyDate}}</td></tr>
+                <tr><td>Study Name</td><td>{{this.studyName}}</td></tr>
+                <tr><td>Referring Physician Name</td><td>{{this.referingPhysicianName}}</td></tr>
+                <tr><td>Institution Name</td><td>{{this.institutionName}}</td></tr>
+            </table>
+            <button data-toggle="collapse" data-target="#series" class="btn btn-danger">Series</button>
+            <div id="series" class="collapse">
+            {{#series}}
+                <table class="table table-striped">
+                    <tr><td>Series Number</td><td>{{this.seriesNumber}}</td></tr>
+                    <tr><td>Status</td><td>{{this.status}}</td></tr>
+                    <tr><td>Body Part Examined</td><td>{{this.bodyPartExamined}}</td></tr>
+                    <tr><td>Contrast Bolus Agent</td><td>{{this.contrastBolusAgent}}</td></tr>
+                    <tr><td>Modality</td><td>{{this.modality}}</td></tr>
+                    <tr><td>Operators Name</td><td>{{this.operatorsName}}</td></tr>
+                    <tr><td>Protocol Name</td><td>{{this.protocolName}}</td></tr>
+                    <tr><td>Station Name</td><td>{{this.stationName}}</td></tr>
+                </table>
+                <button data-toggle="collapse" data-target="#instances" class="btn btn-danger">Instances</button>
+                <div id="instances" class="collapse">
+                    <br />
+                    <ul>
+                    {{#instance}}
+
+                            <li>
+                                <a target="_blank" class="btn-success text-center" href="/instanceresult/{{this.instanceNumber}}?filename={{this.instancePath}}&id={{this._id}}">Instance - {{this._id}}</a>
+                            </li>
+
+                    {{/instance}}
+                    </ul>
+                </div>
+            {{/series}}
+            </div>
+        {{/study}}
+        </div>
+    {{/each}}
+    <div class="text-center"><a href="/">Go Back</a></div>
+{{/if}}
+</div>
+
+
